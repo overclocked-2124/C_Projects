@@ -1,3 +1,4 @@
+//program to find the divisors of  a number.
 #include <stdio.h>
 
 int main(){
