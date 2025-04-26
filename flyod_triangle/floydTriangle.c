@@ -1,3 +1,4 @@
+//Program to print floyd triangle
 #include <stdio.h>
 
 int main() {

@@ -1,3 +1,4 @@
+//program to check if the given number is a perfect number
 #include <stdio.h>
 
 int main() {
