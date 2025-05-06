@@ -1,4 +1,4 @@
-//
+//This is the program to check if array is sorted in accending order
 #include <stdio.h>
 
 int main() {
