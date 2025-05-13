@@ -11,7 +11,7 @@ int count=0;
 for(int i=0;i<5;i++){
     for(int j =0;j<5;j++){
         if(a[i]==b[j]){
-            c[count];
+            c[count]=a[i];
             count++;
         }
     }
