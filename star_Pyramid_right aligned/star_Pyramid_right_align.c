@@ -1,3 +1,4 @@
+//This is the code to print a right aligned star pattern.
 #include <stdio.h>
 
 int main(){
