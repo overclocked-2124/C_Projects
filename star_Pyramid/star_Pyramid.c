@@ -1,3 +1,4 @@
+//This is the code to print star pyramid in c programming 
 #include <stdio.h>
 
 int main(){
