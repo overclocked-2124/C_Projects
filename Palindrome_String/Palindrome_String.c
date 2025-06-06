@@ -15,7 +15,7 @@ return 0;
 }
 void check (char word [], int index)
 {
-intlen = strlen(word) - (index + 1);
+int len = strlen(word) - (index + 1);
 if (word[index] == word[len])
 {
 if (index + 1 == len || index == len)
@@ -28,6 +28,5 @@ check(word, index + 1);
 else
 {
 printf("The entered word is not a palindrome\n");
-}
 }
 }
