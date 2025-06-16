@@ -451,3 +451,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*_Future_commits/
