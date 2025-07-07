@@ -65,3 +65,12 @@ void append(NODE **q,int d){
     temp->data=d;
     temp->next=NULL;
 }
+
+
+void addatbeg(NODE **q,int d){
+    NODE *temp;
+    temp=(NODE *)malloc(sizeof(NODE));
+    temp->next=*q;
+    temp->data=d;
+    *q=temp;
+}
