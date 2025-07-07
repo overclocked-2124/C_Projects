@@ -74,3 +74,28 @@ void addatbeg(NODE **q,int d){
     temp->data=d;
     *q=temp;
 }
+
+int count(NODE *q){
+    int count=0;
+    NODE *temp;
+    temp=q;
+    while(temp!=NULL){
+        temp=temp->next;
+        count++;
+    }
+}
+
+
+void addafter(NODE **q,int pos,int d){
+    NODE *temp,*new;
+    temp=*q;
+
+    while(pos--){
+        temp=temp->next;
+    }
+    new=(NODE *)malloc(sizeof(NODE ));
+    new->next=temp->next;
+    temp->next=new;
+    new->data=d;
+
+}
