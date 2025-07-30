@@ -11,7 +11,7 @@ int main() {
         return 1;
     }
 
-    while ((ch = fgetc(fp)) != EOF) {
+    while((fgetc(ch))!=EOF){
         putchar(ch);
     }
 
