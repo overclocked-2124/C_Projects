@@ -6,15 +6,7 @@ int main() {
 
     fp = fopen("data.txt", "r");
 
-    if (fp == NULL) {
-        printf("File not found.\n");
-        return 1;
+    while((fgetc(fp))!=EOF){
+        putchar(fp);
     }
-
-    while((fgetc(ch))!=EOF){
-        putchar(ch);
-    }
-
-    fclose(fp);
-    return 0;
 }

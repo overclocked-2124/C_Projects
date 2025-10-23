@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 int main(){
-    int n, *ptr,largest;
+    int n, *ptr,largest=0;
     largest=0;
     n=5;
 
@@ -10,11 +10,10 @@ int main(){
 
     for(int i=0;i<n;i++){
         scanf("%d",(ptr+i));
-        
     }
 
     for(int i=0;i<n;i++){
-        if(largest<*(ptr+i)){
+        if(*(ptr+i)>largest){
             largest=*(ptr+i);
         }
     }

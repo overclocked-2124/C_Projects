@@ -1,3 +1,5 @@
+//Program to find and display quadratic roots.
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
